@@ -1,0 +1,129 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0e813c;
+    color: #ecf0f1;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header.titulo {
+    font-size: 3rem;
+    font-weight: bold;
+    background-color: #D05A2A;
+    color: white;
+    font-style: oblique;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+    transform: translateY(0);
+    box-shadow: none;
+}
+
+.btn-danger {
+    background-color: #e74c3c;
+    border: none;
+}
+
+.btn-primary {
+    background-color: #3498db;
+    border: none;
+}
+
+#jugador-cartas, #computadora-cartas {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+    height: 240px;
+    border: 10px solid #FFD700; 
+    padding: 10px;
+    border-radius: 20px;
+  }
+
+.carta {
+    position: relative;
+    width: 140px;
+    height: 140px;
+    left: 100px;
+    margin-left: -75px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+}
+
+.carta:hover {
+    transform: scale(1.1);
+}
+
+.row.container {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #308446;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+small {
+    font-size: 1.5rem;
+    color: #95a5a6;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+img.carta {
+    max-width: 100%;
+    height: auto;
+}
+
+.btn {
+    font-weight: bold;
+    box-shadow: none;
+}
+
+.btn:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    .carta {
+        width: 70px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    small {
+        font-size: 1.2rem;
+    }
+}
