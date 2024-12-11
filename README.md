@@ -2,6 +2,8 @@
 🃏 Blackjack Game
 Welcome to the Blackjack game repository! This project is a simple and fun implementation of the classic card game, designed to play against the system. It was developed as part of Fernando Herrera's course, with added improvements and graphics.
 
+👉 Play it here: https://primerjuegonesli22.netlify.app
+
 🎮 Features
 New Game: Start a new game at any time.
 Hit: Draw additional cards to get as close as possible to 21 points without going over.
